@@ -1,0 +1,8 @@
+#!/bin/bash
+cmd="git log -10 --pretty=oneline"
+clear
+echo $cmd
+echo " "
+$cmd
+echo " "
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "";
+cmd="sudo docker container ps -a"
+echo $cmd
+$cmd
+echo "";
